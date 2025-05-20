@@ -1,0 +1,27 @@
+
+@import "tailwindcss";
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+.sendicon{
+    position: flex ;
+    border-radius: 50%;
+
+}
+
+.inputContent{
+    box-shadow: #a53860 0px 0px 10px;
+    border-radius: 20px;
+}
+
+.animation {
+  animation: scaleUp 0.3s ease-in-out;
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
