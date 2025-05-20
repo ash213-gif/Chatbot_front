@@ -4,7 +4,7 @@
 
 .sendicon{
     position: flex ;
-    border-radius: 50%;
+    border-radius: 50%; 
 
 }
 
@@ -24,4 +24,11 @@
   100% {
     transform: scale(1);
   }
+}
+
+.resultContainer{
+   
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+
 }
