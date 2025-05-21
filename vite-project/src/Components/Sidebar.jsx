@@ -8,7 +8,8 @@ import { IoNotificationsOutline } from 'react-icons/io5';
 
 export default function Sidebar(props) {
 
-  console.log(props.show );
+ const shareData = props.show
+ console.log(shareData);
 
   const [hide, setHide] = useState(true);
   const [showNav, setShowNav] = useState(true);

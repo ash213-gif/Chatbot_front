@@ -137,7 +137,7 @@ export default function Main() {
 
 
          {dropdownOpen && (
-          <div className=" animation bottom-20 lg:bottom-33 md:bottom-24 lg:left-100 md:left-32 left-0 right-0 lg:right-auto bg-[#ffa5ab] shadow-md rounded-lg p-2 gap-3 w-full lg:w-auto md:w-64">
+          <div className=" animation Mobilescreen  laptopScreen lg:bottom-48  md:bottom-24 lg:left-70 md:left-48 left-16 right-0 lg:right-auto bg-[#ffa5ab] shadow-md rounded-lg p-1 gap-3 w-44 lg:w-auto md:w-64">
             <ul className='flex p-2 flex-col gap-2'>
               <li className="flex gap-2 cursor-pointer">
                 <MdUploadFile size={20} className="" />

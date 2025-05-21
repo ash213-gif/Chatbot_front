@@ -32,3 +32,14 @@
   -ms-overflow-style: none; /* Internet Explorer 10+ */
 
 }
+
+.Mobilescreen{
+  position: fixed ;
+  bottom: 80px;
+}
+
+.laptopScreen{
+  position: fixed ;
+  bottom: 140px;
+  left: 330px;
+}
